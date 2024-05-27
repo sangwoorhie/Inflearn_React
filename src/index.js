@@ -3,7 +3,9 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import LandingPage from "./chapter_09/LandingPage";
+import SignUp from "./chapter_11/signUp";
+// import AttendanceBook from "./chapter_10/AttendanceBook";
+// import LandingPage from "./chapter_09/LandingPage";
 // import ConfirmButton from "./chapter_08/ConfirmButton";
 // import Accommodate from "./chapter_07/Accommodate";
 // import NotificationList from "./chapter_06/NotificationList";
@@ -20,7 +22,9 @@ root.render(
     {/* <NotificationList /> */}
     {/* <Accommodate /> */}
     {/* <ConfirmButton /> */}
-    <LandingPage />
+    {/* <LandingPage /> */}
+    {/* <AttendanceBook /> */}
+    <SignUp />
   </React.StrictMode>
 );
 
