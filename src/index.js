@@ -1,13 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+// import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import LandingPage from "./chapter_09/LandingPage";
+// import ConfirmButton from "./chapter_08/ConfirmButton";
+// import Accommodate from "./chapter_07/Accommodate";
+// import NotificationList from "./chapter_06/NotificationList";
+// import CommentList from "./chapter_05/CommentList";
+// import Library from "./chapter_03/Library";
+// import Clock from "./chapter_04/Clock";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Library /> */}
+    {/* <Clock /> */}
+    {/* <CommentList /> */}
+    {/* <NotificationList /> */}
+    {/* <Accommodate /> */}
+    {/* <ConfirmButton /> */}
+    <LandingPage />
   </React.StrictMode>
 );
 
